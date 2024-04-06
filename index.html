@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Party Planner</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+  <section class="header">
+    <h1>Party Planner</h1>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section id="parties">
+    <h1>Parties</h1>
+    <ul id="event-list"></ul>
+  </section>
+
+<section>
+  <h1>Add Your Party to the Fun</h1>
+  <form id="addParty">
+    <label class="labelParty">
+      Name
+      <input type="text" name="name" />
+    </label>
+    <label class="labelParty">
+      Date
+      <input type="date" name="Date" />
+    </label>
+    <label class="labelParty">
+      Times
+      <input type="time" name="time" />
+    </label>
+    <label class="labelParty">
+      Location
+      <input type="text" name="location" />
+    </label>
+    <label class="labelParty">
+      Description
+      <input type="text" name="description" />
+    </label>
+    <button id="">Add Party</button>
+  </form>
+  <ul id="addParties"></ul>
+</section>
+
+</body>
+</html>
